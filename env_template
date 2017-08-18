@@ -1,0 +1,9 @@
+# Name of the project used as a prefix for the name of the containers.
+PROJECT_NAME=projectx
+
+# Port to be used by Nginx as an application access port. By default port 80 if you are already just assign a different
+# port, and access the application by localhost: port
+WEB_PORT=80
+
+# Port for access to phpmyadmin default 8082
+WEB_PHPMYADMIN=8082
