@@ -53,4 +53,10 @@ you want to run your services in the background, you can pass the -d flag (for â
 ### Test in brownser
 Access localhost:port (port is declared in .env file) by default in 80. 
 
+
+### Create superuser in Django
+```
+sudo docker-compose run --rm web python manage.py createsuperuser
+```
+
 ### Enable Travis and Coveralls
