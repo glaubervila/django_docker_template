@@ -1,12 +1,35 @@
-# ProjectXServer
+# Django Docker Template
+This is a template ready to start your new project with django, using docker to create the environment quickly.
+
+## Content of this template.
+- Django 1.11.4
+- gunicorn 19.7.1
+
 
 ### Install Docker and Docker-Compose
+If you have not installed you can follow this [How To](etc/install_docker_docker-compose.md)
 
-[How To](etc/install_docker_docker-compose.md)
+### Cloning this repository
+```
+git clone https://github.com/glaubervila/ProjectXServer.git <project_name>
+```
+### Change Git repository
+```
+cd <project_name>
+rm -rf .git
+git init
+git add --all
+git commit -m "initial commit"
+```
+If using github, add the url from the remote repository.
+```
+git remote add origin https://github.com/<user>/<repository>.git
+git push -u origin master
+```
 
 ### Up Containers
 
-To create an .env file with the variables, and edit the file to change the default values if needed.
+To create an .env file with the variables, and edit the file to change the project name and default ports values if needed.
 ```
 # cat env_template >> .env
 ```
@@ -26,3 +49,4 @@ you want to run your services in the background, you can pass the -d flag (for â
 ### Test in brownser
 Access localhost:port (port is declared in .env file) by default in 80. 
 
+### Enable Travis and Coveralls
