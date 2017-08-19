@@ -1,9 +1,13 @@
 # Django Docker Template
-This is a template ready to start your new project with django, using docker to create the environment quickly.
+This is a template ready to start your new project with django, using docker to create the environment quickly. This app is already configured to run the tests, check the pep8 and coverage using TravisCi. For web server Nginx + Gunicorn.
 
 ## Content of this template.
 - Django 1.11.4
+- Python 3.6.2
+- nginx 1.13.3
 - gunicorn 19.7.1
+- Mysql 5.7.19
+- PhpMyAdmin 4.7.3
 
 
 ### Install Docker and Docker-Compose
