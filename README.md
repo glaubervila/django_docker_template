@@ -15,7 +15,7 @@ If you have not installed you can follow this [How To](etc/install_docker_docker
 
 ### Cloning this repository
 ```
-git clone https://github.com/glaubervila/ProjectXServer.git <project_name>
+git clone https://github.com/glaubervila/django_docker_template.git <project_name>
 ```
 ### Change Git repository
 ```
@@ -33,7 +33,7 @@ git push -u origin master
 
 ### Up Containers
 
-To create an .env file with the variables, and edit the file to change the project name and default ports values if needed.
+Create an .env file with the variables, and edit the file to change the project name and default ports values if needed.
 ```
 # cat env_template >> .env
 ```
